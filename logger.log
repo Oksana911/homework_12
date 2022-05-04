@@ -1,0 +1,163 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 17:18:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 17:18:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 17:18:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 17:18:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:30] "GET /?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:09:07] "GET /?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:09:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+ERROR:app:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/Oksana/PycharmProjects/homework_12/main/views.py", line 24, in search_page
+    main.utils.search_post_by_substring(posts, s)
+TypeError: search_post_by_substring() takes 1 positional argument but 2 were given
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:09:12] "[35m[1mGET /search?s=ага HTTP/1.1[0m" 500 -
+INFO:root:Открытие страницы поиска
+ERROR:app:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/Oksana/PycharmProjects/homework_12/main/views.py", line 24, in search_page
+    main.utils.search_post_by_substring(posts, s)
+TypeError: search_post_by_substring() takes 1 positional argument but 2 were given
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:09:22] "[35m[1mGET /search?s=Ага HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:13:30] "GET /?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:13:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:13:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:13:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+ERROR:app:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/Oksana/PycharmProjects/homework_12/main/views.py", line 24, in search_page
+    search_post_by_substring(posts, s)
+  File "/Users/Oksana/PycharmProjects/homework_12/main/utils.py", line 10, in search_post_by_substring
+    posts = load_json_data("../posts.json")
+  File "/Users/Oksana/PycharmProjects/homework_12/main/utils.py", line 5, in load_json_data
+    with open(path, "r", encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: '../posts.json'
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:13:39] "[35m[1mGET /search?s=ага HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:18:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:18:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+ERROR:app:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/Oksana/PycharmProjects/homework_12/main/views.py", line 23, in search_page
+    posts = load_json_data("../posts.json")
+  File "/Users/Oksana/PycharmProjects/homework_12/main/utils.py", line 5, in load_json_data
+    with open(path, "r", encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: '../posts.json'
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:18:23] "[35m[1mGET /search?s=ага HTTP/1.1[0m" 500 -
+INFO:root:Открытие страницы поиска
+ERROR:app:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/Oksana/PycharmProjects/homework_12/main/views.py", line 23, in search_page
+    posts = load_json_data("../posts.json")
+  File "/Users/Oksana/PycharmProjects/homework_12/main/utils.py", line 5, in load_json_data
+    with open(path, "r", encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: '../posts.json'
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:18:28] "[35m[1mGET /search?s=Ага HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:19:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:19:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+ERROR:app:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/Oksana/PycharmProjects/homework_12/main/views.py", line 24, in search_page
+    result = search_post_by_substring(posts, s)
+  File "/Users/Oksana/PycharmProjects/homework_12/main/utils.py", line 10, in search_post_by_substring
+    posts = load_json_data("../posts.json")
+  File "/Users/Oksana/PycharmProjects/homework_12/main/utils.py", line 5, in load_json_data
+    with open(path, "r", encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: '../posts.json'
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:19:29] "[35m[1mGET /search?s=ага HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:20:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:20:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:20:24] "GET /search?s=Ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:20:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:20:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:20:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:20:41] "GET /search?s=Утро HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:20:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:21:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:21:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:21:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:21:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:23:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:23:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:23:10] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:23:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
