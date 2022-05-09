@@ -2,9 +2,8 @@ import logging
 
 from flask import Blueprint, render_template, request
 
-from main.utils import *
+from functions import load_json_data, search_post_by_substring
 
-import app
 
 main_blueprint = Blueprint("main_blueprint", __name__, template_folder="templates")
 logging.basicConfig(filename="logger.log", level=logging.INFO)

@@ -161,3 +161,234 @@ INFO:root:Открытие страницы поиска
 INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:23:10] "GET /search?s=ага HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:23:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:25:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:25:15] "GET /static/style.css HTTP/1.1" 200 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:25:20] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:25:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:25:26] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:25:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:25:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:25:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:25:37] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:25:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:08] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:13] "GET /search?s=Ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:16] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:20] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [04/May/2022 16:37:20] code 400, message Bad request syntax ('------WebKitFormBoundary31BZ0aBozPTzxWfi')
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:20] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:24] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [04/May/2022 16:37:24] code 400, message Bad request syntax ('------WebKitFormBoundaryEwCliJR47YhgjuOV')
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:24] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:35] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:42] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:45] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [04/May/2022 16:37:45] code 400, message Bad request syntax ('------WebKitFormBoundaryq1AdnoR2dFkdTJTW')
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:45] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:37:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:40:38] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [04/May/2022 16:40:38] code 400, message Bad request syntax ('------WebKitFormBoundaryq1AdnoR2dFkdTJTW')
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:40:38] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:40:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:40:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:40:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:40:41] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:40:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:40:43] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [04/May/2022 16:40:43] code 400, message Bad request syntax ('------WebKitFormBoundaryWPpLy7BHBZEvkIfN')
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:40:43] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 16:40:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2022 18:14:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:37] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:45] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:50] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 14:59:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:00:00] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:00:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:08:08] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:08:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:09:25] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [09/May/2022 15:09:25] code 400, message Bad request syntax ('------WebKitFormBoundaryfEvAkeirnA5npesV')
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:09:25] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:09:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:11] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [09/May/2022 15:12:11] code 400, message Bad request syntax ('------WebKitFormBoundaryfEvAkeirnA5npesV')
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:11] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:14] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:26] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [09/May/2022 15:12:26] code 400, message Bad request syntax ('------WebKitFormBoundaryyAD0AXBrhuVddoSo')
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:26] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:41] "GET /search?s=dog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:12:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:24:55] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:24:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:25:09] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [09/May/2022 15:25:09] code 400, message Bad request syntax ('------WebKitFormBoundaryx5Ls3cvpbACpC1BX')
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:25:09] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:25:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:25:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:25:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:29] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:33] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:47] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [09/May/2022 15:56:47] code 400, message Bad request syntax ('------WebKitFormBoundarykMZAce3dHVxfPP6X')
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:47] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:54] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 15:56:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:09:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:09:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:02] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:06] "GET /search?s=Ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:08] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:25] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [09/May/2022 16:10:25] code 400, message Bad request syntax ('------WebKitFormBoundaryMX0Epo7amtiYtOTP')
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:25] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:10:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:53:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:16] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:19] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:26] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [09/May/2022 17:18:26] code 400, message Bad request syntax ('------WebKitFormBoundaryy2IRU0bWN44XNwt3')
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:26] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:26] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [09/May/2022 17:18:26] code 400, message Bad request syntax ('------WebKitFormBoundaryy2IRU0bWN44XNwt3')
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:26] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:26] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [09/May/2022 17:18:26] code 400, message Bad request syntax ('------WebKitFormBoundaryy2IRU0bWN44XNwt3')
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:26] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 17:18:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:35:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:35:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:35:04] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:35:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:35:11] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [09/May/2022 18:35:11] code 400, message Bad request syntax ('------WebKitFormBoundaryw2ABGgaAkX9FYmYj')
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:35:11] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:35:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:38:52] "POST /post HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [09/May/2022 18:38:52] code 400, message Bad request syntax ('------WebKitFormBoundaryw2ABGgaAkX9FYmYj')
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:38:52] "[35m[1mNone /post HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:38:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/Oksana/PycharmProjects/homework_12/loader/views.py", line 27, in add_post_by_user
+    picture.save(picture_path)
+  File "/Users/Oksana/PycharmProjects/Homework 6.1/venv/lib/python3.10/site-packages/werkzeug/datastructures.py", line 2996, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: '"uploads/images"/dog.jpeg'
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:38:59] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Файл dog.jpeg сохранен
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:43:20] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:43:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:43:20] "GET /uploads/images/dog.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:43:31] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:43:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:43:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:43:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие страницы поиска
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:43:48] "GET /search?s=kkk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:43:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:43:48] "[36mGET /uploads/images/dog.jpeg HTTP/1.1[0m" 304 -
