@@ -26,7 +26,6 @@ def search_post_by_substring(posts, substring):
     return found_posts
 
 
-
 def is_filename_allowed(filename):
     ALLOWED_EXTENSIONS = ["png", "jpg", "jpeg"]
     extension = filename.split(".")[-1]

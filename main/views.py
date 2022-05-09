@@ -4,7 +4,6 @@ from flask import Blueprint, render_template, request
 
 from functions import load_json_data, search_post_by_substring
 
-
 main_blueprint = Blueprint("main_blueprint", __name__, template_folder="templates")
 logging.basicConfig(filename="logger.log", level=logging.INFO)
 

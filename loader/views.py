@@ -3,9 +3,9 @@ from flask import Blueprint, render_template, request
 import logging
 from functions import load_json_data, is_filename_allowed
 
-
 loader_blueprint = Blueprint("loader_blueprint", __name__, template_folder="templates")
 logging.basicConfig(filename="logger.log", level=logging.INFO)
+
 
 @loader_blueprint.route("/post", methods=["GET", "POST"])
 def add_post_page():
@@ -33,7 +33,6 @@ def add_post_by_user():
     posts = load_json_data("posts.json")
     new_post = {"pic": picture_path, "content": content}
     posts.append(new_post)
-
 
     with open("posts.json", "w", encoding="utf-8") as file:
         json.dump(posts, file, ensure_ascii=False)
